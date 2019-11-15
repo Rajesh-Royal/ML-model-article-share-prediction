@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Predicting No. of shares on Article</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--  Header -->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- comment first line and uncomment second line to use image logo -->
+        <h1 class="text-light"><a href="#header"><span>Success Prediction</span></a></h1>
+        <!--<a href="#intro" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
+      </div>
+    </div>
+  </header><!-- #header -->
+
+  <!--   Intro Section -->
+  <section id="intro" class="clearfix">
+    <div class="container">
+
+      <div class="intro-img">
+        <div class="first-image">
+          <img src="img/main.png" alt="" class="img-fluid " />
+        </div>
+        <div><img src="img/person.png" alt="" class="second-image" width="200px" /></div>
+
+      </div>
+
+      <div class="intro-info">
+        <h2>ML model for Predicting Article <span>Shares</span></h2>
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing
+          layouts and visual mockups.</p>
+        <div>
+          <a href="#content-area" class="btn-get-started scrollto">Start Prediction <i
+              class="fa fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <!--   Content Area -->
+  <section id="content-area" class="clearfix">
+    <div class="container">
+
+      <form action="" method="" class="form-container" id="myform">
+
+        <div for="inp" class="inp form-group">
+          <input type="text" id="inp" class="form-control" placeholder="&nbsp;" autocomplete="off">
+          <span class="label">Dataset 1</span>
+          <span class="border"></span>
+        </div>
+
+        <div for="inp" class="inp form-group">
+          <input type="text" id="inp" class="form-control" placeholder="&nbsp;">
+          <span class="label">Dataset 1</span>
+          <span class="border"></span>
+        </div>
+
+        <div for="inp" class="inp form-group">
+          <input type="text" id="inp" class="form-control" placeholder="&nbsp;">
+          <span class="label">Dataset 1</span>
+          <span class="border"></span>
+        </div>
+
+        <div for="inp" class="inp form-group">
+          <input type="text" id="inp" class="form-control" placeholder="&nbsp;">
+          <span class="label">Dataset 1</span>
+          <span class="border"></span>
+        </div>
+
+        <div for="inp" class="inp form-group">
+          <input type="text" id="inp" class="form-control" placeholder="&nbsp;">
+          <span class="label">Dataset 1</span>
+          <span class="border"></span>
+        </div>
+       
+        <div for="inp" class="inp form-group">
+          <input type="text" id="inp" class="form-control" placeholder="&nbsp;">
+          <span class="label">Dataset 1</span>
+          <span class="border"></span>
+        </div>
+
+
+        <!--submit button-->
+        <div class="form-group">
+          <input type="submit" id="showme" class="form-control btn btn-danger" value="Predict Result"/>
+        </div>
+      </form>
+
+       <!--result of form-->
+      <div class="form-container result">
+        <div>
+          Result of Prediction
+        </div>
+      </div>
+
+
+    </div>
+  </section><!-- #content-area -->
+<!--script to show result div when user click on submit button prevent default form to open link in new tab-->
+<script>
+  document.getElementById("myform").addEventListener("click", function(event){
+  event.preventDefault()
+});
+</script>
+
+  <!--   Footer -->
+  <footer id="footer" style="margin-top: 20px;">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>TeamName</strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!--Jquery files -->
+  <script src="lib/js/jquery-3.4.1.min.js"></script>
+  <!--Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
